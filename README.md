@@ -1,23 +1,15 @@
-#Interface de bot Whatsapp com next.js
+# Interface de bot Whatsapp com next.js
 
-## Getting Started
+## Iniciando projeto
 
-First, run the development server:
+Para iniciar o projeto comece com o seguinte comando
 
 npm run dev
 
-# or
+### or
 
 yarn dev
 
-# or
-
-pnpm dev
-
-# or
+### or
 
 bun dev
-
-```
-
-```
