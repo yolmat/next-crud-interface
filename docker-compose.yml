@@ -1,0 +1,17 @@
+version: "3"
+
+services:
+  db-postgres-evento:
+    image: postgres:alpine
+    ports:
+      - "5435:5435"
+    container_name: "db-crud-next-interface"
+    restart: always
+    volumes:
+      - ./db-crud-next-interface:/var/lib/postgresql/data
+    environment:
+      POSTGRES_USER: Mateus
+      POSTGRES_PASSWORD: nextCrudInterface
+
+volumes:
+  db-crud-next-interface:
