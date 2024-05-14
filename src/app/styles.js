@@ -7,12 +7,22 @@ export const Main = styled.main`
     height: 100vh;
     width: 100vw;
 
-    align-items: center;
     justify-content: center;
 
-    color: #666666;
+    padding: 0 25%;
 
+    
+    color: #666666;
+    
     background-color: #121212;
+
+    @media (max-width: 635px) {
+        padding: 0 15%;
+    }
+
+    @media (max-width: 450px) {
+        padding: 0 5%;
+    }
 `
 
 export const Header = styled.header`
