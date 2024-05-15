@@ -1,5 +1,5 @@
 'use client'
-import { Main, Header, LoginMain, LoginDiv, LoginLabel } from './styles'
+import { Main, Header, LoginMain, LoginDiv, LinkPe, LoginLabel } from './styles'
 
 export default function Home() {
   return (
@@ -13,7 +13,7 @@ export default function Home() {
           <LoginLabel>Usuario: <input type="email" placeholder="exemplo@email.com.br" /></LoginLabel>
           <LoginLabel>Senha: <input type="password" placeholder="************" /></LoginLabel>
           <button>Entrar</button>
-          <a>Esqueceu sua senha?</a>
+          <LinkPe href="/Home">Esqueceu sua senha?</LinkPe>
         </LoginDiv>
       </LoginMain>
     </Main>

@@ -1,4 +1,5 @@
 import styled from "styled-components"
+import Link from "next/link"
 
 export const Main = styled.main`
     display: flex;
@@ -68,13 +69,13 @@ export const LoginDiv = styled.div`
 
         color: #d3d3d3;
     }
+`
 
-    a {
-        font-weight: 300;
-        text-align: center;
-        text-decoration: underline;
-        cursor: pointer;
-    }
+export const LinkPe = styled(Link)`
+    font-weight: 300;
+    text-align: center;
+    text-decoration: underline;
+    cursor: pointer;
 `
 
 export const LoginLabel = styled.label`
